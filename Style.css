@@ -1,0 +1,250 @@
+
+        *{
+            margin:0;
+            padding: 0; 
+
+        }
+        body{
+            background-color: rgb(6, 6, 51);
+            color: white;
+            font-family:'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 75px;
+            background-color:rgb(10, 10, 61);
+        }
+        nav ul{
+            display: flex ;
+            justify-content: center;
+            
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+         
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            color: rgb(174, 174, 240);
+            font-size: 1.2rem;
+        } 
+
+        hr{
+            border: 0;
+            background-color: rgb(85, 85, 213);
+            height: 1px;
+            margin: 40px 84px;
+        }
+
+        .main{
+            width: 40px;
+        }
+
+        .left{
+            position: relative;
+            left: -200px;
+            font-size: 1.5rem;
+        }
+        .firstsection{
+            display:flex;
+            justify-content: space-around ;
+            align-items: center;
+            margin: 110px 0;
+        }
+
+        .firstsection > div{
+            width: 40%;
+        }
+
+        .leftsection{
+            font-size: 3rem;
+        }
+        .rightsection img{
+            width: 80%;
+            margin: 80 px 0;
+        }
+
+        .name{
+            color: rgb(145, 81, 206);
+        }
+
+        .text-gray{
+            color: gray;
+        }
+
+        #element{
+            color: rgb(145, 81, 206); 
+        }
+
+
+       
+
+        .secondsection{
+            max-width: 85vw;
+            margin:auto;
+            height: 60vh;
+        }
+        .secondsection h1{
+            font-size: 1.9rem;
+        }
+
+        .secondsection .milestone{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 60px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+        }
+        .html{
+            width: 30px;
+            position: relative;
+            top: -35px;
+            left: -14px;
+        }
+
+        .verticaltitle{
+            position:relative;
+            top: 75px;
+            width: 130px;
+           
+        }
+        .verticaltext{
+            top: 90px;
+            left: -20px;
+            color: gray;
+            width: 140px;
+            font-size: 9px ;
+            position: relative;
+        }
+
+        .thirdsection{
+            max-width: 70vh;
+            margin: auto;
+            height: 100vh;
+        }
+
+        .thirdsection h1{
+            font-size: 3rem;
+            position: relative;
+            left: -310px;
+            color: rgb(145, 81, 206);
+        }
+
+        .onlinefirleft{
+            font-size: 2rem;
+        }
+
+        .onlinefirleft ul{
+            justify-content: center;
+        }
+
+        .onlinefirleft ul li{
+            list-style: none;
+            margin: 50px 0px;
+            position: relative;
+            left: -300px;
+        }
+
+        .onlinefir{
+            position: relative;
+            left: 400px;  
+            top: -220px;
+            width: 70%;
+        }
+
+        
+        .info{
+            font-size: 1rem;
+            color: gray;
+            width: 500px;
+            position: relative;
+            left: -300px;
+            top: -20px;
+        }
+
+        .netflix{
+            font-size: 2rem;
+        }
+
+        .netflix ul{
+            justify-content: center;
+        }
+
+        .netflix ul li{
+            list-style: none;
+            position: relative;
+            left: -300px;
+            top:-350px
+        }
+
+        .netflixinfo{
+            font-size: 1rem;
+            color: gray;
+            width: 400px;
+            position: relative;
+            left: -300px;
+            top: -300px;
+        }
+        .netflixclone{
+            position: relative;
+            left: 400px;
+            top: -100px;
+
+        }
+
+
+        footer{
+            background-color: rgb(17, 17, 86);
+            height: 45vw;
+        }
+        p{
+            color:black;
+            text-align: center;
+        }
+        .footer{
+            padding: 23px 100px;
+        }
+        .flex h1{
+            position: relative;
+            font-size: 3rem;
+            color: rgb(189, 147, 227);
+            top:50px;
+            left:70px;
+            width:max-content;
+            
+        }
+        .fotterbox{
+            /* position: relative; */
+            display: flex;
+            background-color: white;
+            height: 400px;
+            margin:100px;
+            border-radius: 10px;
+            
+            
+        }
+        .footer-second{
+            justify-content: space-around;
+            gap:50px;
+            display: flex;
+            padding: 100px;
+            flex-direction:column;
+        }
+        .footer-third{
+            margin: 290px 10px 10px 250px;
+        }
+
